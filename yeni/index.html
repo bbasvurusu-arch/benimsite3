@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Benim Mağazam</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">🛒 Benim Mağazam</div>
+    <nav>
+      <a href="index.html">Ana Sayfa</a>
+      <a href="cart.html">Sepetim</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Ürünler</h1>
+    <div class="product-grid">
+      <div class="product-card">
+        <img src="images/urun1.jpg" alt="Ürün 1">
+        <h2>Ürün 1</h2>
+        <p>₺199.99</p>
+        <button onclick="addToCart('Ürün 1', 199.99)">Sepete Ekle</button>
+      </div>
+
+      <div class="product-card">
+        <img src="images/urun2.jpg" alt="Ürün 2">
+        <h2>Ürün 2</h2>
+        <p>₺299.99</p>
+        <button onclick="addToCart('Ürün 2', 299.99)">Sepete Ekle</button>
+      </div>
+    </div>
+  </main>
+
+  <script src="js/cart.js"></script>
+</body>
+</html>
